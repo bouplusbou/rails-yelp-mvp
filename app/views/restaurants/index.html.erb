@@ -3,7 +3,7 @@
  <% @restaurants.each do |resto| %>
    <div class="bookmark">
    <a href="<%= restaurant_path(resto) %>">
-     <ul>
+     <ul class="list-unstyled">
        <li><%= resto.name %></li>
      </ul>
    </a>
